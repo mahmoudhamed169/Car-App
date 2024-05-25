@@ -1,0 +1,13 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1572d31a;
+    color: #0b5ed7;
+    padding: 5px 20px;
+    border: 1px solid #1572d31a;
+
+}

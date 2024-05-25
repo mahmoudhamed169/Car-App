@@ -1,0 +1,9 @@
+.whyUsImage {
+    /* transform: scale(1.2); */
+    margin: auto;
+    display: block;
+    position: relative;
+    right: 18%;
+
+    transform: scale(1.2);
+}

@@ -1,0 +1,11 @@
+.formContainer {
+    width: 60%;
+}
+
+@media (max-width: 768px) {
+    .formContainer {
+        width: 100%;
+        margin: auto;
+        /* Center the form horizontally */
+    }
+}

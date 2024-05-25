@@ -1,0 +1,22 @@
+.input-group {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    padding: 0;
+
+}
+
+
+
+
+.cards {
+    width: 90%;
+}
+
+.car {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+
+    border: 1px solid rgba(0, 0, 0, .175);
+}
+
+p {
+    font-size: .875em;
+}

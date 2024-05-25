@@ -1,0 +1,38 @@
+.home-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+@keyframes driveIn {
+    from {
+        height: 90%;
+        width: 40%;
+        left: 65%;
+        transform: translateX(-60%) scale(1.55);
+
+    }
+
+    to {
+        height: 550px;
+        width: 90%;
+        transform: translateX(-50%) scale(1.7);
+
+    }
+}
+
+.home-img img {
+    margin: auto;
+    display: block;
+    position: relative;
+    left: 56%;
+    /* Center it initially */
+    transform: translateX(-60%) scale(1.55);
+    /* Match the initial state of the animation */
+    height: 90%;
+    /* Match the initial height of the animation */
+    width: 40%;
+    /* Match the initial width of the animation */
+    animation: driveIn 2s ease-out forwards;
+    /* Add 'forwards' to keep the end state */
+}
