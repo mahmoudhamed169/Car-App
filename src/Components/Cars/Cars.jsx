@@ -78,7 +78,7 @@ const Cars = () => {
                 </div>
 
 
-                <Link to='all-vehicles' className="btn btn-outline-secondary my-5 px-4 text-decoration-none text-muted">Show all vehicles <i className="fa-solid fa-arrow-right"></i></Link>
+                <Link to='/all-vehicles' className="btn btn-outline-secondary my-5 px-4 text-decoration-none text-muted">Show all vehicles <i className="fa-solid fa-arrow-right"></i></Link>
 
             </div>
         </div>
