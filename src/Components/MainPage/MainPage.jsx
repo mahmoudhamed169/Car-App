@@ -1,4 +1,4 @@
-import React from 'react';
+
 import NavBar from '../NavBar/NavBar';
 import Home from '../Home/Home';
 import Cars from '../Cars/Cars';
