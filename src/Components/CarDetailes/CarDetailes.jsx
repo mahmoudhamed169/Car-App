@@ -42,8 +42,8 @@ const CarDetails = () => {
         <div className="container">
             <nav aria-label="breadcrumb" className="mt-5">
                 <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><Link to="/home">Home</Link></li>
-                    <li className="breadcrumb-item"><Link to="/home/all-vehicles">Cars</Link></li>
+                    <li className="breadcrumb-item"><Link to="/main">Home</Link></li>
+                    <li className="breadcrumb-item"><Link to="/all-vehicles">Cars</Link></li>
                     <li className="breadcrumb-item active" aria-current="page">Car Details</li>
                     <li className="breadcrumb-item active" aria-current="page">{`${carInfo.make} ${carInfo.model}`}</li>
                 </ol>

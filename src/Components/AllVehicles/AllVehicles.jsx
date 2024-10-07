@@ -52,7 +52,7 @@ const AllVehicles = () => {
         <div className="container mt-5">
             <nav aria-label="breadcrumb" className="mt-5">
                 <ol className="breadcrumb">
-                    <li className="breadcrumb-item"><Link to="/home">Home</Link></li>
+                    <li className="breadcrumb-item"><Link to="/main">Home</Link></li>
                     <li className="breadcrumb-item active" aria-current="page">Cars</li>
                 </ol>
             </nav>

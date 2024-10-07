@@ -44,7 +44,7 @@ const CarCard = ({ car }) => {
                     </div>
 
 
-                    <Link to={`all-vehicles/${id}`} className=" btn btn-primary w-100 text-decoration-none text-white "> View details  <i className="fa-solid fa-arrow-right"></i></Link>
+                    <Link to={`/all-vehicles/${id}`} className=" btn btn-primary w-100 text-decoration-none text-white "> View details  <i className="fa-solid fa-arrow-right"></i></Link>
 
 
 
